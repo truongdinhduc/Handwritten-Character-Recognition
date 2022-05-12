@@ -31,7 +31,7 @@ pixel_y = []
 pygame.init()
 
 DISPLAYSURFACE = pygame.display.set_mode(WINDOW_SIZE)
-pygame.display.set_caption('Letter Board')
+pygame.display.set_caption('Character Board')
 FONT = pygame.font.Font('freesansbold.ttf', 20)
 
 iswriting = False
